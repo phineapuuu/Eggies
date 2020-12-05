@@ -48,3 +48,6 @@ class Help extends Command {
         bot.tools.page(message, manualChunks, embedOptions);
     }
 }
+module.exports = Help;
+
+
