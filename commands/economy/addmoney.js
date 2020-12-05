@@ -48,3 +48,4 @@ class AddMoney extends Command {
 }
 
 module.exports = AddMoney;
+
