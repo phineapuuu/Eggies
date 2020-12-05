@@ -1,0 +1,57 @@
+include module
+
+doctype html
+html(lang="ko")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        meta(property="og:title" content="Crucian")
+        meta(property="og:description" content="A complete bot for your discord server")
+        meta(property="og:image" content="https://cdn.discordapp.com/avatars/508679069571743746/cd7b4be3a1252c671b7433b52a3d2be9.png")
+        title= TITLE
+        link(rel="stylesheet", href="css/style.css")
+        link(rel="stylesheet", href="bootstrap/css/bootstrap.min.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Montserrat")
+        link(rel="stylesheet", href="css/style.css")
+        script(src="https://use.fontawesome.com/releases/v5.0.10/js/all.js")
+        block css
+    body
+        nav.navbar.navbar-expand-md.navbar-light
+            buttn.navbar-toggler.ml-auto.mb-2.bg-light(type="button", data-toggle="collapse", data-target="#myNavbar")
+                span.navbar-toggler-icon
+            .collapse.navbar-collapse#myNavbar
+                .container-fluid
+                    .row
+                        .col-xl-2.col-lg-3.col-md-4.sidebar.fixed-top
+                            a.navbar-brand.text-white.d-block.mx-auto.text-center.py-3.mb-4.bottom-border.font-weight-bold(href="/")= TITLE
+                            .bottom-border.pb-3
+                                img.rounded-circle.mr-3(src=avatar, width="50")
+                                a.text-white.text-decoration-none(href="#")= tag
+                            ul.navbar-nav.flex-column.mt-4
+                                li.nav-item
+                                    a.nav-link.text-white.p-3.mb-2.current(href='#')
+                                        i.fas.fa-home.text-light.fa-lg.mr-3
+                                        | Dashboard
+                                li.nav-item
+                                    a.nav-link.text-white.p-3.mb-2.sidebar-link(href='#')
+                                        i.fas.fa-user.text-light.fa-lg.mr-3
+                                        | Profile
+                                li.nav-item
+                                    a.nav-link.text-white.p-3.mb-2.sidebar-link(href='#')
+                                        i.fas.fa-trophy.text-light.fa-lg.mr-3
+                                        | Leaderboard
+                                li.nav-item
+                                    a.nav-link.text-white.p-3.mb-2.sidebar-link(href='#')
+                                        i.fas.fa-cog.text-light.fa-lg.mr-3
+                                        | Settings
+                                li.nav-item
+                                    a.nav-link.text-white.p-3.mb-2.sidebar-link(href='https://github.com/xCrypt0r/Crucian', target="_blank")
+                                        i.fas.fa-code.text-light.fa-lg.mr-3
+                                        | Code
+                        block title
+        block section
+        script(src="jquery/jquery.min.js")
+        script(src="popper/popper.min.js")
+        script(src="bootstrap/js/bootstrap.min.js")
+        block js
