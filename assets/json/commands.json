@@ -1,0 +1,804 @@
+{
+    "addmoney": {
+        "aliases": [
+            "지급"
+        ],
+        "category": "economy",
+        "cooldown": 10000,
+        "description": "Give money to a member",
+        "isOwnerOnly": true,
+        "minArgc": 1,
+        "usage": "addmoney [#{mention}] #{money}"
+    },
+    "addrole": {
+        "aliases": [
+            "역할추가"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Add role to a member",
+        "isOwnerOnly": true,
+        "minArgc": 1,
+        "usage": "addrole [#{mention}] #{role}"
+    },
+    "afk": {
+        "aliases": [
+            "잠수"
+        ],
+        "category": "general",
+        "cooldown": 2000,
+        "description": "Set afk",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "afk [#{reason}]"
+    },
+    "ascii": {
+        "aliases": [
+            "아스키"
+        ],
+        "category": "fun",
+        "cooldown": 1500,
+        "description": "Make 3D ascii art with given string",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "ascii #{string}"
+    },
+    "avatar": {
+        "aliases": [
+            "profile",
+            "userimage",
+            "아바타",
+            "프로필",
+            "프사"
+        ],
+        "category": "general",
+        "cooldown": 1000,
+        "description": "Show user's avatar",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "avatar [#{mention]"
+    },
+    "balance": {
+        "aliases": [
+            "bal",
+            "money",
+            "머니",
+            "소지금",
+            "잔고"
+        ],
+        "category": "economy",
+        "cooldown": 0,
+        "description": "Show user's balance",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "balance"
+    },
+    "ban": {
+        "aliases": [
+            "block",
+            "밴",
+            "차단"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Ban user from server",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "ban #{mention} [#{reason}]"
+    },
+    "billboard": {
+        "aliases": [
+            "bb",
+            "빌보드"
+        ],
+        "category": "music",
+        "cooldown": 10000,
+        "description": "Show billboad Top100 chart",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "billboard"
+    },
+    "botinfo": {
+        "aliases": [
+            "봇정보"
+        ],
+        "category": "general",
+        "cooldown": 0,
+        "description": "Show bot's information",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "botinfo"
+    },
+    "calc": {
+        "aliases": [
+            "calculate",
+            "solve",
+            "계산",
+            "계산기",
+            "풀어"
+        ],
+        "category": "life",
+        "cooldown": 1000,
+        "description": "Calculate simple math questions",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "calc #{formula}"
+    },
+    "daily": {
+        "aliases": [
+            "일당"
+        ],
+        "category": "economy",
+        "cooldown": 0,
+        "description": "Get daily rewards",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "daily"
+    },
+    "dequeue": {
+        "aliases": [
+            "dq",
+            "빼"
+        ],
+        "category": "music",
+        "cooldown": 2000,
+        "description": "Delete song in queue with given number (number 0 means clear all)",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "dequeue #{number}"
+    },
+    "eval": {
+        "aliases": [
+            "javascript",
+            "js"
+        ],
+        "category": "system",
+        "cooldown": 2000,
+        "description": "Run javascript code",
+        "isOwnerOnly": true,
+        "minArgc": 1,
+        "usage": "eval #{code}"
+    },
+    "exec": {
+        "aliases": [
+            "run",
+            "shell",
+            "실행"
+        ],
+        "category": "system",
+        "cooldown": 2000,
+        "description": "Execute shell command",
+        "isOwnerOnly": true,
+        "minArgc": 1,
+        "usage": "exec #{command}"
+    },
+    "forget": {
+        "aliases": [
+            "잊어"
+        ],
+        "category": "life",
+        "cooldown": 1000,
+        "description": "Remove reminder",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "forget #{todo}"
+    },
+    "getlines": {
+        "aliases": [
+            "countline",
+            "countlines",
+            "getline",
+            "lines",
+            "코드줄수"
+        ],
+        "category": "general",
+        "cooldown": 2000,
+        "description": "Count lines of github code",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "getlines [#{extension}]"
+    },
+    "headsortails": {
+        "aliases": [
+            "coinflip",
+            "flipcoin",
+            "ht",
+            "ㅇㄷ",
+            "동전던지기",
+            "앞뒤",
+            "앞면뒷면"
+        ],
+        "category": "economy",
+        "cooldown": 1000,
+        "description": "Play Heads Or Tails",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "headsortails"
+    },
+    "help": {
+        "aliases": [
+            "도움",
+            "도움말",
+            "헬프"
+        ],
+        "category": "general",
+        "cooldown": 0,
+        "description": "Informs how to use command",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "help [#{command}]"
+    },
+    "image": {
+        "aliases": [
+            "img",
+            "photo",
+            "pic",
+            "picture",
+            "그림",
+            "사진",
+            "이미지"
+        ],
+        "category": "fun",
+        "cooldown": 2000,
+        "description": "Get an image from google",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "image #{keyword}"
+    },
+    "kick": {
+        "aliases": [
+            "banish",
+            "expel",
+            "강퇴",
+            "추방"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Kick user from server",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "kick #{mention} [#{reason}]"
+    },
+    "leaderboard": {
+        "aliases": [
+            "rank",
+            "랭크",
+            "랭킹",
+            "리더보드",
+            "순위"
+        ],
+        "category": "economy",
+        "cooldown": 1000,
+        "description": "Post leaderboard",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "leaderboard"
+    },
+    "leave": {
+        "aliases": [
+            "l",
+            "나가",
+            "나와"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Leave voice channel",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "leave"
+    },
+    "locale": {
+        "aliases": [
+            "lang",
+            "language",
+            "언어"
+        ],
+        "category": "system",
+        "cooldown": 0,
+        "description": "Change locale",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "locale #{lang}"
+
+    },
+    "lock":  {
+        "aliases": [
+            "lockdown",
+            "계엄령",
+            "락",
+            "얼음",
+            "잠금"
+        ],
+        "category": "system",
+        "cooldown": 10000,
+        "description": "Lockdown channel",
+        "isOwnerOnly": true,
+        "minArgc": 0,
+        "usage": "lock"
+    },
+    "log": {
+        "aliases": [
+            "usage",
+            "기록",
+            "로그"
+        ],
+        "category": "system",
+        "cooldown": 3000,
+        "description": "Show command usage",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "log #{mention}"
+    },
+    "loop": {
+        "aliases": [
+            "repeat",
+            "반복",
+            "반복재생"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Toggle loop state of nowplaying music",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "loop"
+    },
+    "melon": {
+        "aliases": [
+            "멜론"
+        ],
+        "category": "music",
+        "cooldown": 10000,
+        "description": "Show melon Top100 chart",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "melon"
+    },
+    "meme": {
+        "aliases": [
+            "밈",
+            "짤"
+        ],
+        "category": "fun",
+        "cooldown": 1000,
+        "description": "Get a meme from reddit",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "meme"
+    },
+    "mute": {
+        "aliases": [
+            "bequite",
+            "shutup",
+            "닥쳐",
+            "쉿",
+            "조용히해",
+            "채금",
+            "채팅금지"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Mute user",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "mute #{mention}"
+    },
+    "nowplaying": {
+        "aliases": [
+            "np",
+            "재생중"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Show now playing music",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "nowplaying"
+    },
+    "pause": {
+        "aliases": [
+            "stop",
+            "멈춰",
+            "스탑",
+            "일시정지",
+            "정지"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Pause now playing music",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "pause"
+    },
+    "ping": {
+        "aliases": [
+            "pong",
+            "퐁",
+            "핑"
+        ],
+        "category": "general",
+        "cooldown": 0,
+        "description": "Show latency and response times",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "ping"
+    },
+    "play": {
+        "aliases": [
+            "p",
+            "재생",
+            "틀어"
+        ],
+        "category": "music",
+        "cooldown": 2000,
+        "description": "Play music",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "play #{URL|keyword}"
+    },
+    "prefix": {
+        "aliases": [
+            "pre",
+            "접두사"
+        ],
+        "category": "general",
+        "cooldown": 0,
+        "description": "Change prefix",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "prefix #{new_prefix}"
+    },
+    "purge": {
+        "aliases": [
+            "clear",
+            "del",
+            "delete",
+            "remove",
+            "rm",
+            "삭제",
+            "지워"
+        ],
+        "category": "system",
+        "cooldown": 5000,
+        "description": "Purge messages",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "purge #{limit}"
+    },
+    "queue": {
+        "aliases": [
+            "q",
+            "재생목록",
+            "큐"
+        ],
+        "category": "music",
+        "cooldown": 2000,
+        "description": "Show songs in queue",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "queue"
+    },
+    "reboot": {
+        "aliases": [
+            "재부팅"
+        ],
+        "category": "system",
+        "cooldown": 0,
+        "description": "Reboot bot",
+        "isOwnerOnly": true,
+        "minArgc": 0,
+        "usage": "reboot"
+    },
+    "reddit": {
+        "aliases": [
+            "레딧"
+        ],
+        "category": "life",
+        "cooldown": 2000,
+        "description": "Get post from reddit",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "reddit #{subreddit}"
+    },
+    "reminder": {
+        "aliases": [
+            "remember",
+            "remind",
+            "reminders",
+            "remindme",
+            "todo",
+            "할일"
+        ],
+        "category": "life",
+        "cooldown": 1000,
+        "description": "Set reminder",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "reminder [#{text}]"
+    },
+    "removerole": {
+        "aliases": [
+            "역할제거"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Remove role from a member",
+        "isOwnerOnly": true,
+        "minArgc": 1,
+        "usage": "removerole [#{mention}] #{role}"
+    },
+    "resume": {
+        "aliases": [
+            "다시틀어"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Resume paused music",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "resume"
+    },
+    "sanction": {
+        "aliases": [
+            "돌았냐",
+            "뒤질래",
+            "디질래",
+            "맞을래",
+            "제재",
+            "죽을래",
+            "처벌",
+            "혼날래"
+        ],
+        "category": "fun",
+        "cooldown": 0,
+        "description": "Sanction bot",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "sanction"
+    },
+    "say": {
+        "aliases": [
+            "말해"
+        ],
+        "category": "general",
+        "cooldown": 1000,
+        "description": "Send message to channel",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "say [#{channel_mention}] #{message}"
+    },
+    "search": {
+        "aliases": [
+            "검색",
+            "노래검색",
+            "찾아"
+        ],
+        "category": "music",
+        "cooldown": 4000,
+        "description": "Search music from youtube",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "search #{keyword}"
+    },
+    "select": {
+        "aliases": [
+            "choice",
+            "choose",
+            "골라",
+            "뽑아",
+            "선택"
+        ],
+        "category": "fun",
+        "cooldown": 500,
+        "description": "Select one among multiple items",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "select #{option1} #{option2} #{option3} ..."
+    },
+    "serverinfo": {
+        "aliases": [
+            "서버정보"
+        ],
+        "category": "general",
+        "cooldown": 0,
+        "description": "Show server's information",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "serverinfo"
+    },
+    "shuffle": {
+        "aliases": [
+            "random",
+            "randomize",
+            "sh",
+            "랜덤",
+            "셔플"
+        ],
+        "category": "music",
+        "cooldown": 2000,
+        "description": "Shuffle songs in queue",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "shuffle"
+    },
+    "shutdown": {
+        "aliases": [
+            "turnoff",
+            "꺼져",
+            "끄기"
+        ],
+        "category": "system",
+        "cooldown": 0,
+        "description": "Shutdown bot",
+        "isOwnerOnly": true,
+        "minArgc": 0,
+        "usage": "shutdown"
+    },
+    "skip": {
+        "aliases": [
+            "next",
+            "s",
+            "넘겨"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Skip now playing music",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "skip"
+    },
+    "slot": {
+        "aliases": [
+            "slotmachine",
+            "slots",
+            "슬롯",
+            "슬롯머신"
+        ],
+        "category": "economy",
+        "cooldown": 1000,
+        "description": "Play slot game",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "slot #{money}"
+    },
+    "slowmode": {
+        "aliases": [
+            "slow",
+            "slowmotion",
+            "슬로우",
+            "슬로우모드"
+        ],
+        "category": "system",
+        "cooldown": 1000,
+        "description": "Define cooldown in a channel",
+        "isOwnerOnly": true,
+        "minArgc": 1,
+        "usage": "slowmode #{seconds}"
+    },
+    "spotify": {
+        "aliases": [
+            "스포티파이"
+        ],
+        "category": "music",
+        "cooldown": 10000,
+        "description": "Show spotify Top200 chart",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "spotify"
+    },
+    "tempmute": {
+        "aliases": [],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Mute user for given time (example: 3s, 2m, 1h)",
+        "isOwnerOnly": false,
+        "minArgc": 2,
+        "usage": "tempmute #{mention} #{time}"
+    },
+    "timer": {
+        "aliases": [
+            "타이머"
+        ],
+        "category": "fun",
+        "cooldown": 3000,
+        "description": "Shade message for specific seconds",
+        "isOwnerOnly": false,
+        "minArgc": 2,
+        "usage": "timer #{message} #{seconds}"
+    },
+    "translate": {
+        "aliases": [
+            "tr",
+            "번역"
+        ],
+        "category": "life",
+        "cooldown": 0,
+        "description": "Translate message to another language",
+        "isOwnerOnly": false,
+        "minArgc": 2,
+        "usage": "translate #{language code} #{text}"
+    },
+    "unban": {
+        "aliases": [
+            "unblock",
+            "밴해제",
+            "차단해제"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Unban user from server",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "unban #{id} [#{reason}]"
+    },
+    "unlock": {
+        "aliases": [
+            "잠금해제"
+        ],
+        "category": "system",
+        "cooldown": 10000,
+        "description": "Unlock channel",
+        "isOwnerOnly": true,
+        "minArgc": 0,
+        "usage": "unlock"
+    },
+    "unmute": {
+        "aliases": [
+            "채금해제"
+        ],
+        "category": "moderation",
+        "cooldown": 5000,
+        "description": "Unmute user",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "unmute #{mention}"
+    },
+    "userinfo": {
+        "aliases": [
+            "info",
+            "유저정보",
+            "정보"
+        ],
+        "category": "general",
+        "cooldown": 0,
+        "description": "Show user's information",
+        "isOwnerOnly": false,
+        "minArgc": 0,
+        "usage": "userinfo #{mention}"
+    },
+    "volume": {
+        "aliases": [
+            "v",
+            "볼륨",
+            "음량"
+        ],
+        "category": "music",
+        "cooldown": 0,
+        "description": "Adjust music volume (range: 0~200)",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "volume #{number}"
+    },
+    "warn": {
+        "aliases": [
+            "warning",
+            "경고"
+        ],
+        "category": "moderation",
+        "cooldown": 3000,
+        "description": "Warn user",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "warn #{mention} [#{reason}]"
+    },
+    "weather": {
+        "aliases": [
+            "날씨"
+        ],
+        "category": "life",
+        "cooldown": 5000,
+        "description": "Informs the current weather",
+        "isOwnerOnly": false,
+        "minArgc": 1,
+        "usage": "weather #{city}"
+    }
+}
