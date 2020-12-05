@@ -1,0 +1,96 @@
+{
+    "COLOR": {
+        "ADDMONEY_EMBED": "#48a0f7",
+        "BILLBOARD_CHART": "#00aaa9",
+        "BOT_EMBED": "#15f153",
+        "BOT_MANUAL": "#4ae342",
+        "DAILY_EMBED": "RANDOM",
+        "HEADS_OR_TAILS": "RANDOM",
+        "LEADERBOARD_EMBED": "#e60b63",
+        "PAGE_DEFAULT": "#ff0000",
+        "REDDIT_EMBED": "#ff4301",
+        "REDDIT_MEME": "RANDOM",
+        "SERVER_EMBED": "#0244f7",
+        "SLOT_EMBED": "RANDOM",
+        "SPOTIFY_CHART": "#1ed761",
+        "TRANSLATE_EMBED": "#f4b400",
+        "USER_EMBED": "#edd81c",
+        "WEATHER_EMBED": "#00ae86"
+    },
+    "DAY_TO_MILLISECOND": 86400000,
+    "FORMAT": {
+        "BILLBOARD_CHART": "`{0}. {1} - {2}`",
+        "BOT_UPTIME": "D [d] H [h] m [m] s [s]",
+        "LEADERBOARD_CHART": "{0}. {1}: **`{2}`**",
+        "MELON_CHART": "`{0}. {1} - {2}`",
+        "MUSIC_CHART_DATE": "YYYYMMDD",
+        "MUSIC_DURATION": "m:ss",
+        "SERVER_CREATEDAT": "YYYY-MM-DD",
+        "SPOTIFY_CHART": "`{0}. {1} - {2} ({3})`",
+        "USER_CREATEDAT": "YYYY-MM-DD",
+        "USER_JOINEDAT": "YYYY-MM-DD"
+    },
+    "HEADER": {
+        "MELON": {
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36"
+        },
+        "REDDIT": {
+            "User-Agent": "reddit-oauth/1.1.1"
+        }
+    },
+    "HEADS_OR_TAILS_DEFAULT_INCOME": 100,
+    "HEADS_OR_TAILS_SELECT_OPTIONS": {
+        "HEAD": ["h", "head", "ㅇ", "앞"],
+        "TAIL": ["t", "tail", "ㄷ", "뒤"]
+    },
+    "MEDIA_EXTENSION": [".jpg", ".png", ".svg", ".mp4", ".gif"],
+    "OPTION": {
+        "HEADS_OR_TAILS": {
+            "max": 1,
+            "time": 20000,
+            "errors": [
+                "time"
+            ]
+        }
+    },
+    "REDDIT_AUTHOR_WITH_PREFIX": "u/{0}",
+    "REDDIT_INVALID_THUMBNAIL": [
+        "self",
+        "spoiler"
+    ],
+    "REDDIT_MEME_SUBREDDIT": [
+        "2meirl4meirl",
+        "AdviceAnimals",
+        "AnimeFunny",
+        "MemeEconomy",
+        "MemesOfAnime",
+        "animememes",
+        "animemes",
+        "dankmeme",
+        "dankmemes",
+        "me_irl",
+        "meirl",
+        "meme",
+        "techsupportanimals",
+        "wholesomememes"
+    ],
+    "REGEXP": {
+        "SUBREDDIT": "^[A-Za-z0-9][A-Za-z0-9_]{1,20}$"
+    },
+    "SLOTMACHINE_SIZE": 3,
+    "URL": {
+        "BILLBOARD_CHART": "https://www.billboard.com/charts/hot-100",
+        "GOOGLE_SUPPORTED_LANGUAGES": "https://cloud.google.com/translate/docs/languages",
+        "MELON_CHART": "https://www.melon.com/chart/",
+        "REDDIT_ARTICLE": "https://www.reddit.com{0}",
+        "REDDIT_AUTHOR": "https://reddit.com/user/{0}",
+        "REDDIT_HOT": "https://www.reddit.com/r/{0}/hot.json",
+        "REDDIT_RANDOM": "https://www.reddit.com/r/{0}/random/.json",
+        "REDDIT_USER": "https://www.reddit.com/user/{0}/about.json",
+        "SPOTIFY_CHART": "https://spotifycharts.com/regional"
+    },
+    "YES_OR_NO_OPTIONS": {
+        "YES": ["y", "ya", "yep", "yes", "ㅇ", "네", "예", "응"],
+        "NO": ["n", "no", "nop", "nope", "ㄴ", "노"]
+    }
+}
