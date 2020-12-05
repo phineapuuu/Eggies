@@ -111,3 +111,4 @@ class HeadsOrTails extends Command {
 }
 
 module.exports = HeadsOrTails;
+
