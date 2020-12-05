@@ -1,0 +1,16 @@
+node_modules
+
+commands/test/
+data/
+assets/json/config.json
+
+package-lock.json
+
+.idea
+.env
+
+*.pem
+
+*.sh
+
+**.log
