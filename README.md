@@ -6,7 +6,7 @@
 [![Repo Size](https://img.shields.io/github/languages/code-size/xCrypt0r/Crucian?style=for-the-badge&label=SIZE&logo=github)](/../../)
 ![Codacy branch grade](https://img.shields.io/codacy/grade/a3f21df5a2c84e789dc94b0c66ce5aac/master?style=for-the-badge&label=QUALITY&logo=codacy)
 ![Build Status](https://img.shields.io/travis/Riiickyy/Crucian/master?style=for-the-badge&logo=travis)
-![Discord](https://img.shields.io/discord/776048364071813131?color=7289da&label=discord&logo=discord&logoColor=white&style=for-the-badge)
+![Discord]<iframe src="https://discord.com/widget?id=776048364071813131&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 
 **Crucian** is my discord bot with simple structure based on [discord.js](https://github.com/discordjs/discord.js)
 
