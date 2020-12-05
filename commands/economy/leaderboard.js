@@ -37,3 +37,4 @@ class Leaderboard extends Command {
 }
 
 module.exports = Leaderboard;
+
