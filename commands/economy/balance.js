@@ -1,4 +1,5 @@
 
+
 const Command = require('../../structures/Command.js');
 
 class Balance extends Command {
