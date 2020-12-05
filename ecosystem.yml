@@ -1,0 +1,30 @@
+apps:
+  - name: bot
+
+    script: npm start
+
+    watch:
+      - assets
+      - commands
+      - dashboard
+      - events
+      - extenders
+      - lib
+      - models
+      - structures
+      - bot.js
+
+    ignore_watch:
+      - assets/json/config.json.example
+      - dashboard/**.log
+
+    watch_delay: 1000
+
+    watch_options:
+      followSymlinks: false
+
+    max_restarts: 5
+
+    max_memory_restart: 200M
+
+    min_uptime: 5000
