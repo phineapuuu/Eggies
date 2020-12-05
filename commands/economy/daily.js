@@ -3,6 +3,7 @@ const MemberModel = require('../../models/Member.js');
 const { MessageEmbed } = require('discord.js');
 const ms = require('pretty-ms');
 
+
 class Daily extends Command {
     static timeout = bot.consts.DAY_TO_MILLISECOND;
     static amount = 500;
