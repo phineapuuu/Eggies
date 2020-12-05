@@ -1,0 +1,335 @@
+{
+  "addedToQueue": "`{0}` 이 목록에 추가댐 | 신청자: `{1}`",
+  "addMoney": {
+    "amount": {
+      "name": "금액"
+    },
+    "balance": {
+      "name": "보유 머니"
+    },
+    "title": "**머니 지급**"
+  },
+  "afkSet": "AFK로 설정댐 (이유: **`{0}`**)",
+  "afkUnset": "AFK 해제댐",
+  "alreadyGotDaily": "이미 일일 보상을 받음. **{0}**뒤에 받으러 오셈",
+  "alreadyPaused": [
+    "이미 일시정지댐",
+    "이미 멈춰져 있잖"
+  ],
+  "banSuccess": [
+    "**`{0}`** 밴했음 (이유: **`{1}`**)",
+    "**`{0}`** 차단함 (이유: **`{1}`**)"
+  ],
+  "billboardChartTitle": ":musical_note: **빌보드_차트_{0}**",
+  "botInformation": {
+    "botName": {
+      "name": "이름"
+    },
+    "channels": {
+      "name": "채널"
+    },
+    "discordVersion": {
+      "name": "Discord.js",
+      "value": "v{0}"
+    },
+    "servers": {
+      "name": "서버"
+    },
+    "uptime": {
+      "name": "가동시간"
+    },
+    "users": {
+      "name": "유저"
+    }
+  },
+  "botNotInVoiceChannel": "이미 나와있음",
+  "calcResult": "`{0}`은 `{1}`임",
+  "cantFindRole": "그런 역할은 없음",
+  "cantFindUser": "누구 말하는 거임",
+  "chooseEnd": [
+    "`{0}`어떰?",
+    "`{0}`하셈",
+    "`{0}`가 좋아보임",
+    "`{0}`가 좋을듯"
+  ],
+  "commandInCooldown": "**__{0}__**은 아직 사용할 수 없음",
+  "commandManual": "> 사용법: {0}",
+  "commandUsage": "**`{0}`**: {1}",
+  "currentLocale": "현재 언어는 `{0}`",
+  "currentPrefix": "현재 접두사는 `{0}`임",
+  "dailyRewards": {
+    "balance": {
+      "name": "보유 머니"
+    },
+    "collected": {
+      "name": "획득"
+    },
+    "title": "**일일 보상**"
+  },
+  "deleteEnd": [
+    "메시지 {0}개 삭제 끝",
+    "{0}개 다 삭제함"
+  ],
+  "deleteTooMuch": [
+    "개수를 줄이셈",
+    "그렇게 많이는 안댐",
+    "{0}개는 너무 많음"
+  ],
+  "dequeueSuccess": "{0}번 노래 목록에서 뻄",
+  "displayQueue": ":musical_note: 대기열",
+  "headsOrTails": {
+    "balance": {
+      "name": "보유 머니"
+    },
+    "chooseContinue": "> 계속 할거임? 멈추면 `{0}` 코인 얻을 수 있음 (`ㅇ` 또는 `ㄴ` 입력하셈)",
+    "chooseHeadsOrTails": "> 앞면일 거 같음 뒷면일 거 같음? (`앞` 또는 `뒤`를 입력하셈)",
+    "collected": {
+      "name": "얻은 머니"
+    },
+    "hasLost": "> 틀림 ㅎㅎ",
+    "hasWon": "> 옹.. `{0}` 가(이) 맞힘 (`{1}`연승 중)",
+    "winCount": {
+      "name": "맞힌 횟수"
+    },
+    "selectOptions": ["앞", "뒤"],
+    "stopGame": "> `{0}`연승함! `{1}` 코인 얻음",
+    "timeout": "> 시간초과임 ㅠㅠ",
+    "title": "❓ 앞뒤 맞추기"
+  },
+  "helpManual": {
+    "activity": "명령어 목록을 보려면 {0}도움말 입력하셈",
+    "alias": "**별칭**: {0}",
+    "category": "**분류**: {0}",
+    "cooldown": "**쿨타임**: {0}ms",
+    "description": "**설명**: {0}",
+    "isOwnerOnly": "**관리자 전용**: {0}",
+    "name": "{0}. `{1}`",
+    "title": ":blue_book: **도움말**",
+    "usage": "**사용법**: `{0}`"
+  },
+  "imageNotFound": [
+    "사진이 없는뎅",
+    "사진이 없음"
+  ],
+  "invalidArguments": "인자를 제대로 입력하셈",
+  "invalidCalculation": "계산할 식을 똑바로 입력하셈",
+  "invalidURL": [
+    "url을 똑바로 입력하셈",
+    "url이 이상함"
+  ],
+  "kickSuccess": [
+    "**`{0}`** 강퇴했음 (이유: **`{1}`**)",
+    "**`{0}`** 내보냄 (이유: **`{1}`**)",
+    "**`{0}`** 쫓아냈음 (이유: **`{1}`**)"
+  ],
+  "lackOfArguments": "인자 수가 부족함(필요한 최소 인자 수: {0})",
+  "lackOfPermission": [
+    "권한이 없음",
+    "권한이 부족해서 안댐"
+  ],
+  "languageNotSupported": "`{0}`는 지원되지 않는 언어임",
+  "leaderboardTitle": ":bar_chart: 재산 순위",
+  "leaveVoiceChannel": [
+    "ㅂㅂ",
+    "붕어 가봄"
+  ],
+  "lockSuccess": ":white_check_mark: 채널: {0}얼림",
+  "melonChartTitle": ":musical_note: **멜론_차트_{0}**",
+  "memeTitle": "r/{0}에서 가져온 밈",
+  "messageTooLong": [
+    "메세지 길이를 좀 줄이셈",
+    "메세지가 너무 길어서 안댐"
+  ],
+  "moneyInPocket": "`{0}`는(은) `{1}`코인 가지고 있음",
+  "muteSuccess": [
+    "`{0}` 조용히 시킴",
+    "`{0}` 채금 먹임"
+  ],
+  "noMusicPlaying": "재생 중인 음악이 없음",
+  "noRecord": "데이터베이스에 기록이 없음",
+  "notApplicableForBot": "봇은 안댐",
+  "notApplicableForModerator": "관리자는 안댐",
+  "notInNsfwChannel": [
+    "nsfw 채널로 가셈",
+    "후방주의 채널로 가셈"
+  ],
+  "notEnoughMoney": "돈이 부족함. 가진 돈: {0}",
+  "notInSameVoiceChannel": "같은 채널에 있어야댐",
+  "notInVoiceChannel": "음성 채팅방에 들어가셈",
+  "notPaused": "일시정지 안대어 있는뎅",
+  "noWeatherResults": [
+    "날씨 정보가 없음",
+    "지역을 똑바로 입력하셈"
+  ],
+  "nowPlaying": "재생 중인 노래: `{0}` | 신청자: `{1}` | 길이: `{2}`",
+  "ownerOnlyCommand": "**__{0}__**는 관리자 전용 커맨드임",
+  "page": {
+    "footer": "페이지: {0} / {1}"
+  },
+  "pauseSuccess": [
+    "`{0}` 멈춰놓음",
+    "`{0}` 일시정지했음"
+  ],
+  "pingMessages": [
+    "핑: `{0}`ms",
+    "핑은 `{0}`ms임"
+  ],
+  "prefixChanged": "접두사 `{0}`로 바꿈",
+  "questionReaction": [
+    "ㄴㄴ",
+    "ㅁㄹ",
+    "ㅇㅇ"
+  ],
+  "rebootSuccess": "재부팅 완료",
+  "redditComments": {
+    "name": "댓글",
+    "value": ":newspaper: {0}개"
+  },
+  "redditUpvotes": {
+    "name": "추천",
+    "value": ":thumbsup: {0}명"
+  },
+  "reminderEmpty":"할 일 목록이 비어있음",
+  "reminderItem": "{0} - {1}",
+  "reminderRemoved": "해결된 일: {0}",
+  "reminderSet": "새로운 할 일: {0}",
+  "reminderTitle": ":bookmark_tabs: **할 일 목록**",
+  "resultNotFound": [
+    "검색 결과가 없음",
+    "제대로 검색한 거 맞음?"
+  ],
+  "resumeSuccess": "`{0}` 다시 틀었음",
+  "roleAdded": "역할 `{0}`을 `{1}`한테 추가함",
+  "roleCreated": "`{0}` 역할 만듬",
+  "roleRemoved": "역할 `{0}`이 `{1}`한테서 제거댐",
+  "sanctionReaction": [
+    "ㅠㅠ",
+    "ㅈㅅ",
+    "그만 때리셈",
+    "붕어가 잘못함",
+    "아픔ㅠㅠ",
+    "안까불겠음"
+  ],
+  "searchEnd": [
+    "이거?",
+    "이거 말하는거?",
+    "이거 맞나",
+    "이건가"
+  ],
+  "selectSong": ":notes: 노래 검색 - 숫자 `1-{0}` 또는 `c`(취소)를 입력하셈",
+  "serverInformation": {
+    "bots": {
+      "name": "봇"
+    },
+    "createdAt": {
+      "name": "생성 일자"
+    },
+    "master": {
+      "name": "방장"
+    },
+    "members": {
+      "name": "멤버"
+    },
+    "region": {
+      "name": "지역"
+    },
+    "roles": {
+      "name": "역할"
+    },
+    "serverName": {
+      "name": "이름"
+    },
+    "textChannels": {
+      "name": "텍스트 채널"
+    },
+    "voiceChannels": {
+      "name": "보이스 채널"
+    }
+  },
+  "setVolumeSuccess": "볼륨 {0}로 조절했음",
+  "shellMessage": "`$ {0}`\n\n{1}",
+  "shuffleCompleted": [
+    "다 섞음",
+    "셔플 완료"
+  ],
+  "skipSuccess": "스킵했음",
+  "slotMachine": {
+    "bet": {
+      "name": "배팅"
+    },
+    "result": {
+      "name": "결과"
+    },
+    "balance": {
+      "name": "보유 머니"
+    },
+    "hasLost": "\n\n{0} 돈 잃음\n\n ${1} 잃음",
+    "hasWon": "\n\n{0} 돈 땄음\n\n ${1} 땄음",
+    "title": "**슬롯머신**"
+  },
+  "slowmodeEnabled": "슬로우모드 설정댐 (쿨타임: `{0}s`)",
+  "slowmodeDisabled": "슬로우모드 풀림",
+  "somethingWentWrong": [
+    "먼가 잘못댐",
+    "오류났음"
+  ],
+  "songInQueue": "`{0}. {1} | 신청자: {2}`",
+  "songSelectCancelled": "노래 선택이 취소댐",
+  "spotifyChartTitle": ":musical_note: **스포티파이_차트_{0}**",
+  "startLoop": "`{0}` 반복 시작함",
+  "stopLoop": "`{0}` 반복 끝",
+  "tempmuteSuccess": "`{0}` `{1}ms` 동안 채금임",
+  "translateSupportedLanguages": "지원되는 언어 목록",
+  "unbanSuccess": [
+    "**`{0}`** 밴풀었음 (이유: **`{1}`**)",
+    "**`{0}`** 차단해제함 (이유: **`{1}`**)"
+  ],
+  "unlockSuccess": ":white_check_mark: 채널: {0}잠금해제",
+  "unmuteSuccess": "`{0}` 채금 풀음",
+  "unplayableVideo": "재생할 수 없는 영상임",
+  "userInformation": {
+    "commandUsage": {
+      "name": "{0}의 명령어 사용 횟수"
+    },
+    "createdAt": {
+      "name": "생성 일자"
+    },
+    "joinedAt": {
+      "name": "서버 참여 일자"
+    },
+    "roles": {
+      "name": "역할"
+    },
+    "status": {
+      "name": "상태"
+    },
+    "userName": {
+      "name": "이름"
+    }
+  },
+  "userIsInAfk": "{0}는(은) 지금 AFK상태임 (이유: **`{1}`**)",
+  "warning": "경고! 이유: **`{0}`**\n{1} {2}회째 경고임. 3회 경고받으면 강퇴당함",
+  "weatherInformation": {
+    "feelslike": {
+      "name": "체감 온도",
+      "value": "{0} {1}"
+    },
+    "humidity": {
+      "name": "습도",
+      "value": "{0}%"
+    },
+    "skytext": "**{0}**",
+    "temperature": {
+      "name": "온도",
+      "value": "{0} {1}"
+    },
+    "timezone": {
+      "name": "시간대",
+      "value": "UTC{0}"
+    },
+    "title": "{0}의 날씨 정보",
+    "winddisplay": {
+      "name": "바람"
+    }
+  }
+}
