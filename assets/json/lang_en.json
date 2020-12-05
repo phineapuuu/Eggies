@@ -1,0 +1,330 @@
+
+  "addedToQueue": "`{0}` is added to queue | User: `{1}`",
+  "addMoney": {
+    "amount": {
+      "name": "Amount"
+    },
+    "balance": {
+      "name": "balance"
+    },
+    "title": "**Give Money**"
+  },
+  "afkSet": "You have been set to AFK for reason: **`{0}`**",
+  "afkUnset": "I removed your AFK",
+  "alreadyGotDaily": "You already got your daily rewards, you can get another daily in **{0}**",
+  "alreadyPaused": [
+    "Music is already paused!",
+    "Hey! Music is already stopped!"
+  ],
+  "banSuccess": [
+    "**`{0}`** banned (reason: **`{1}`**)",
+    "**`{0}`** blocked (reason: **`{1}`**)"
+  ],
+  "billboardChartTitle": ":musical_note: **billboard_chart_{0}**",
+  "botInformation": {
+    "botName": {
+      "name": "Name"
+    },
+    "channels": {
+      "name": "Channels"
+    },
+    "discordVersion": {
+      "name": "Discord.js",
+      "value": "v{0}"
+    },
+    "servers": {
+      "name": "Servers"
+    },
+    "uptime": {
+      "name": "Uptime"
+    },
+    "users": {
+      "name": "Users"
+    }
+  },
+  "botNotInVoiceChannel": "I'm already out of the voice channel",
+  "calcResult": "`{0}`is `{1}`",
+  "cantFindRole": "I can't find the role...",
+  "cantFindUser": "I can't find the user...",
+  "chooseEnd": [
+    "How about this one: `{0}`",
+    "Just try this: `{0}`",
+    "`{0}` looks good!"
+  ],
+  "commandInCooldown": "**__{0}__** is in cooldown!",
+  "commandManual": "> Manual: {0}",
+  "commandUsage": "**`{0}`**: {1}",
+  "currentLocale": "Current locale is `{0}`",
+  "currentPrefix": "Current prefix is `{0}`",
+  "dailyRewards": {
+    "balance": {
+      "name": "Balance"
+    },
+    "collected": {
+      "name": "Collected"
+    },
+    "title": "**Daily Rewards**"
+  },
+  "deleteEnd": [
+    "{0} message(s) have been deleted!",
+    "{0} message(s) purged!"
+  ],
+  "deleteTooMuch": [
+    "You can't delete that much...",
+    "{0} is too much :("
+  ],
+  "dequeueSuccess": "Song No.{0} dequeued",
+  "displayQueue": ":musical_note: Queue",
+  "headsOrTails": {
+    "balance": {
+      "name": "balance"
+    },
+    "chooseContinue": "> Continue? If you stop now, you can get `{0}` coins (type `y` or `n`)",
+    "chooseHeadsOrTails": "> Choose heads or tails (type `h` or `t`)",
+    "collected": {
+      "name": "collected"
+    },
+    "hasLost": "> You lost...",
+    "hasWon": "> Wow... `{0}` wins!! (Winning `{1}` time(s) in a row)",
+    "winCount": {
+      "name": "wins"
+    },
+    "selectOptions": ["h", "t"],
+    "stopGame": "> Winning `{0}` time(s) in a row! You got `{1}` coins",
+    "timeout": "> Time Over!",
+    "title": "❓ Heads Or Tails"
+  },
+  "helpManual": {
+    "activity": "{0}help to see commands",
+    "alias": "**Alias**: {0}",
+    "category": "**Category**: {0}",
+    "cooldown": "**Cooltime**: {0}ms",
+    "description": "**Description**: {0}",
+    "isOwnerOnly": "**IsOwnerOnly**: {0}",
+    "name": "{0}. `{1}`",
+    "title": ":blue_book: **Help**",
+    "usage": "**Usage**: `{0}`"
+  },
+  "imageNotFound": [
+    "No images found...",
+    "There are no images matching that keyword"
+  ],
+  "invalidArguments": "Error! I've got Invalid arguments",
+  "invalidCalculation": "Please enter valid expression",
+  "invalidURL": [
+    "Error! I've got an invalid url",
+    "Please enter valid url :("
+  ],
+  "kickSuccess": [
+    "**`{0}`** kicked (reason: **`{1}`**)",
+    "**`{0}`** has been expelled from channel (reason: **`{1}`**)"
+  ],
+  "lackOfArguments": "Lack of arguments! Input more arguments(required number of args: {0})",
+  "lackOfPermission": [
+    "You don't have permissions",
+    "You don't have enough to permission use this command"
+  ],
+  "languageNotSupported": "`{0}`is not supported language...",
+  "leaderboardTitle": ":bar_chart: Leaderboard",
+  "leaveVoiceChannel": [
+    "Got to go",
+    "See ya"
+  ],
+  "lockSuccess": ":white_check_mark: Locked down channel {0}",
+  "melonChartTitle": ":musical_note: **melon_chart_{0}**",
+  "memeTitle": "A meme from r/{0}",
+  "messageTooLong": [
+    "Your message is too long...",
+    "Message is too long to send :("
+  ],
+  "moneyInPocket": "`{0}` has `{1}` coins",
+  "muteSuccess": [
+    "`{0}` muted :D",
+    "`{0}` chat restricted"
+  ],
+  "noMusicPlaying": "There's no music playing",
+  "noRecord": "No record in database",
+  "notApplicableForBot": "It's not applicable for bot",
+  "notApplicableForModerator": "It's not applicable for moderator",
+  "notEnoughMoney": "You don't have enough money. You have: ${0}",
+  "notInNsfwChannel": [
+    "You're not in nsfw channel",
+    "Go to nsfw channel"
+  ],
+  "notInSameVoiceChannel": "You must in the same voice channel",
+  "notInVoiceChannel": "You are not in the voice channel",
+  "notPaused": "Music is playing now",
+  "noWeatherResults": [
+    "There's no weather information",
+    "Please enter valid region"
+  ],
+  "nowPlaying": "Now playing: `{0}` | Queued by: `{1}` | Duration: `{2}`",
+  "ownerOnlyCommand": "**__{0}__** is owner-only command",
+  "page": {
+    "footer": "Page {0} of {1}"
+  },
+  "pauseSuccess": [
+    "Paused: `{0}`",
+    "Stopped: `{0}`"
+  ],
+  "pingMessages": [
+    "Ping: `{0}`ms",
+    "Ping is `{0}`ms"
+  ],
+  "prefixChanged": "Prefix changed to `{0}`",
+  "questionReaction": [
+    "idk",
+    "yep",
+    "nope"
+  ],
+  "rebootSuccess": "It's nice to see you again!",
+  "redditComments": {
+    "name": "comments",
+    "value": ":newspaper: {0} comments"
+  },
+  "redditUpvotes": {
+    "name": "upvotes",
+    "value": ":thumbsup: {0} people"
+  },
+  "reminderEmpty":"You don't have any reminders set",
+  "reminderItem": "{0} - {1}",
+  "reminderRemoved": "Reminder removed: {0}",
+  "reminderSet": "New reminder set: {0}",
+  "reminderTitle": ":bookmark_tabs: **Your Reminders**",
+  "resultNotFound": [
+    "No results found",
+    "There are no results matching that keyword"
+  ],
+  "resumeSuccess": "`{0}` resumed",
+  "roleAdded": "Role `{0}` added to user `{1}`",
+  "roleCreated": "Role created: `{0}`",
+  "roleRemoved": "Role `{0}` removed from user `{1}`",
+  "sanctionReaction": [
+    ":(",
+    "I'm sorry...",
+    "Ouch T.T",
+    "It's my fault...",
+    "Yah hit me more"
+  ],
+  "searchEnd": [
+    "Is this what you want?",
+    "Did you mean this one?",
+    "Is it right?"
+  ],
+  "selectSong": ":notes: Type number `1-{0}` or `c`(cancel)",
+  "serverInformation": {
+    "bots": {
+      "name": "Bots"
+    },
+    "createdAt": {
+      "name": "Created At"
+    },
+    "master": {
+      "name": "Master"
+    },
+    "members": {
+      "name": "Members"
+    },
+    "region": {
+      "name": "Region"
+    },
+    "roles": {
+      "name": "Roles"
+    },
+    "serverName": {
+      "name": "Name"
+    },
+    "textChannels": {
+      "name": "TextChannels"
+    },
+    "voiceChannels": {
+      "name": "VoiceChannels"
+    }
+  },
+  "setVolumeSuccess": "Volue set to {0}",
+  "shellMessage": "`$ {0}`\n\n{1}",
+  "shuffleCompleted": [
+    "Queue shuffled!",
+    "Shuffle complete!"
+  ],
+  "skipSuccess": "Skipped successfully",
+  "slotMachine": {
+    "bet": {
+      "name": "bet"
+    },
+    "result": {
+      "name": "result"
+    },
+    "balance": {
+      "name": "balance"
+    },
+    "hasLost": "\n\n{0} has lost!\n\nYou have lost ${1}",
+    "hasWon": "\n\nWow... {0} won!\n\nYou have won ${1}",
+    "title": "**Slot Machine**"
+  },
+  "slowmodeEnabled": "Slowmode on (cooldown: `{0}s`)",
+  "slowmodeDisabled": "Slowmode off",
+  "somethingWentWrong": [
+    "Something went wrong!",
+    "I've got an error..."
+  ],
+  "songInQueue": "`{0}. {1} | Queued by: {2}`",
+  "songSelectCancelled": "Song is canceled",
+  "spotifyChartTitle": ":musical_note: **spotify_chart_{0}**",
+  "startLoop": "Start repeat: `{0}`",
+  "stopLoop": "Stop repeat: `{0}`",
+  "tempmuteSuccess": "`{0}` muted for `{1}ms`",
+  "translateSupportedLanguages": "Click here to see supported languages",
+  "unbanSuccess": [
+    "**`{0}`** unbanned (reason: **`{1}`**)",
+    "**`{0}`** unblocked (reason: **`{1}`**)"
+  ],
+  "unlockSuccess": ":white_check_mark: Unlock channel {0}",
+  "unmuteSuccess": "`{0}` unmuted",
+  "unplayableVideo": "This video is unplayable",
+  "userInformation": {
+    "commandUsage": {
+      "name": "{0}'s command usage"
+    },
+    "createdAt": {
+      "name": "Created At"
+    },
+    "joinedAt": {
+      "name": "Joined At"
+    },
+    "roles": {
+      "name": "Roles"
+    },
+    "status": {
+      "name": "Status"
+    },
+    "userName": {
+      "name": "Name"
+    }
+  },
+  "userIsInAfk": "{0} is currently afk for reason: **`{1}`**",
+  "warning": "Warning! reason: **`{0}`**\n{1} You received warning {2} times. After the 3rd warning, you'll be kicked",
+  "weatherInformation": {
+    "feelslike": {
+      "name": "feelslike",
+      "value": "{0} {1}"
+    },
+    "humidity": {
+      "name": "humidity",
+      "value": "{0}%"
+    },
+    "skytext": "**{0}**",
+    "temperature": {
+      "name": "temperature",
+      "value": "{0} {1}"
+    },
+    "timezone": {
+      "name": "timezone",
+      "value": "UTC{0}"
+    },
+    "title": "weather in {0}",
+    "winddisplay": {
+      "name": "winds"
+    }
+  }
+}
