@@ -1,6 +1,5 @@
-<img width="150" height="150" align="left" style="float: left; margin: 0 10px 10px 0;" alt="Crucian" src="https://imgur.com/QvReqZN.png">
 
-# Crucian
+# Eggies
 [![Language](https://img.shields.io/badge/Language-Node.js-red?style=for-the-badge&logo=node.js)](nodejs)
 [![GPL License](https://img.shields.io/badge/License-GPL-blue?style=for-the-badge&logo=github)](LICENSE)
 [![Repo Size](https://img.shields.io/github/languages/code-size/xCrypt0r/Crucian?style=for-the-badge&label=SIZE&logo=github)](/../../)
@@ -8,11 +7,11 @@
 ![Build Status](https://img.shields.io/travis/Riiickyy/Crucian/master?style=for-the-badge&logo=travis)
 ![Discord](https://img.shields.io/discord/776048364071813131?color=7289da&label=discord&logo=discord&logoColor=white&style=for-the-badge)
 
-**Crucian** is my discord bot with simple structure based on [discord.js](https://github.com/discordjs/discord.js)
+**Eggies** is my discord bot with simple structure based on [discord.js](https://github.com/discordjs/discord.js)
 
 
 ## Author
-Crucian © Riiickyy  
+Eggies © Riiickyy  
 Authored and maintained by Riiickyy  
 
 > GitHub [**@Riiickyy**][my github]  
